@@ -6,11 +6,22 @@ function getCity() {
   getWeather(search.value);
 }
 async function getWeather(city) {
-  let weather = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=2a08ee501f814b1b8fe170617222706&q=${city}&aqi=no`
-  );
-  let result = await weather.json();
-  displayResults(result);
+  try{
+    let weather = await fetch(
+      `http://api.weatherapi.com/v1/current.json?key=2a08ee501f814b1b8fe170617222706&q=${city}&aqi=no`,
+      {
+        method: "GET",
+        headers: {
+          accept: "application/json",
+        },
+      }
+    );
+    let result = await weather.json();
+    displayResults(result);
+  }
+  catch(err){
+    console.log(err)
+  }
 }
 
 function displayResults(result) {
