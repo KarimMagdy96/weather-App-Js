@@ -25,7 +25,7 @@ async function getWeather(city) {
 }
 
 function displayResults(result) {
-  let cartona = `
+  let WeatherDetails = `
     
       <div class="card card-bg m-auto p-5 mt-4" style="width: 20rem">
               <img src=https://${result.current.condition.icon} class="card-img-top w-50 m-auto d-block" alt="..." />
@@ -37,6 +37,6 @@ function displayResults(result) {
             </div>
     
     `;
-  cardContainer.innerHTML = cartona;
+  cardContainer.innerHTML = WeatherDetails;
 }
 getWeather('cairo');
