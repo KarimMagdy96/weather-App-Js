@@ -1,6 +1,6 @@
 const search = document.getElementById("search");
 const cardContainer = document.getElementById("cardContainer");
-search.addEventListener("input", getCity);
+search.addEventListener('input', getCity);
 
 function getCity() {
   getWeather(search.value);
@@ -39,4 +39,4 @@ function displayResults(result) {
     `;
   cardContainer.innerHTML = cartona;
 }
-getWeather("cairo");
+getWeather('cairo');
