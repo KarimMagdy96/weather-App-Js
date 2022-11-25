@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style/stylee.css" />
+    <title>Weather App</title>
+  </head>
+  <body class="">
+    <nav class="navbar nav-bg">
+<div class="container-fluid">
+<span class="navbar-brand mb-0 h1 text-center text-white  w-100">My Weather App</span>
+</div>
+</nav>
+    <div class="container">
+      <div class="row">
+        <div class="layer">
+          <div class="col-md-12 mt-5 w-75 m-auto">
+            <label for="Search" class=" mb-3 h2 fw-light"> Location</label>
+            <input
+            id="search"
+              type="search"
+              class="form-control text-dark py-3 input-bg border-0 border-bottom"
+              placeholder="Search By City Name"
+            />
+          </div>
+          <div class="col-md-12" id="cardContainer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="fixed-bottom p-3 h2 fw-light  text-center">my weather app</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
