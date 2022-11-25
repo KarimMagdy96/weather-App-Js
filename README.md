@@ -1,7 +1,7 @@
 # Simple weather 
 
 ## Description
-Smple app that can creat read update delete & search prodacts
+Smple app that can show Weather by city name 
 
 <!-- About the Project -->
 ## :star2: About the Project
