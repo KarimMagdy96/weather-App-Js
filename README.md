@@ -1,1 +1,1 @@
-# weather2
+# Simple weather 
