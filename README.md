@@ -1,7 +1,7 @@
 # Simple weather App
 
 ## Description
-Smple app that can show Weather by city name using Api and fetch fun 
+Simple app that can show Weather by city name using Api and fetch fun 
 
 <!-- About the Project -->
 ## :star2: About the Project
