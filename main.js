@@ -5,6 +5,7 @@ search.addEventListener('input', getCity);
 function getCity() {
   getWeather(search.value);
 }
+
 async function getWeather(city) {
   try{
     let weather = await fetch(
@@ -28,7 +29,7 @@ function displayResults(result) {
   let WeatherDetails = `
     
       <div class="card card-bg m-auto p-5 mt-4" style="width: 20rem">
-              <img src=https://${result.current.condition.icon} class="card-img-top w-50 m-auto d-block" alt="..." />
+              <img src=http://${result.current.condition.icon} class="card-img-top w-50 m-auto d-block" alt="..." />
               <div class="card-body">
                 <h1 class="card-title  text-center  fw-bold">${result.current.temp_c}<sup>o</sup><span class='fs-3'> C</span></h1>
                 <h5 class="card-title  text-center">${result.current.condition.text}</h5>
