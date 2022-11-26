@@ -1,7 +1,7 @@
 # Simple weather 
 
 ## Description
-Smple app that can show Weather by city name 
+Smple app that can show Weather by city name using Api and fetch fun 
 
 <!-- About the Project -->
 ## :star2: About the Project
@@ -17,7 +17,7 @@ Smple app that can show Weather by city name
 ### Dependencies:
 
 * HTML
-* CSS
+* CSS / bootstrap 5
 * Vanilla JS (ES6)
 
 #### Live Preview 
