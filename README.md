@@ -11,7 +11,7 @@ Smple app that can show Weather by city name
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://i.imgur.com/10hpHMg.png" alt="screenshot" />
+  <img src="https://i.imgur.com/NaslKda.png" alt="screenshot" />
 </div>
 
 ### Dependencies:
